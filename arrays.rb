@@ -19,3 +19,14 @@ food.unshift("okra", "eggplant salad")
 
 #put arrays to check work!
 puts "", food, fibonacci, floatato, booleans, "" #empty quotation marks in an attempt to have space before and after in terminal
+
+#create new array with elements continuing off of fibonacci array declared above
+fibonacci_continued = [34, 55, 89]
+
+#create new array by combining both fibonacci arrays
+longer_fibonacci = fibonacci + fibonacci_continued
+
+#print the new fibonacci array
+print ""
+print longer_fibonacci
+print ""
